@@ -3,3 +3,39 @@
     font-weight: 500;
     padding-top:20px ;
 }
+.First-row{
+    display: flex;
+    padding-top: 100px;
+    margin-top: 100px;
+    background: grey;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.First-row div{
+cursor: pointer;
+    width: 300px;
+}
+.Second-row{
+    display: flex;
+    padding-top: 100px;
+    background: grey;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.Second-row div{
+    width: 300px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.Services-Btn{
+    text-align: center;
+}
+.Services-Btn button{
+    padding: 8px;
+    width: 10%;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+    background-color: #cfcfcf;
+    margin-bottom: 100px;
+}
