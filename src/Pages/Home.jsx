@@ -3,6 +3,7 @@ import Header from './Header'
 import Banner from './Banner'
 import OurServices from './OurServices'
 import Chooseus from './Chooseus'
+import OurTeam from './OurTeam'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <Banner/>
     <OurServices/>
     <Chooseus/>
+    <OurTeam/>
     </>
   )
 }

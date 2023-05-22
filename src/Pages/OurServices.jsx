@@ -5,7 +5,7 @@ const OurServices = () => {
   return (
     <>
     <div className='Services-Top-Text'>
-    <h2>Our Services</h2>
+    <h2>OUR SERVICES</h2>
     <p>Focused on results we seek to raise the level of our customers.</p>
     </div>
     <div className="First-row">
