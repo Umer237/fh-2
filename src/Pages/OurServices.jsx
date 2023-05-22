@@ -30,10 +30,10 @@ const OurServices = () => {
       </div>
       <div>
         <h3>Outdoor Marketing</h3>
-        <p>Outdoor marketing refers to advertising campaigns that employ outdoor media such as billboards, transit vehicles and other types of outdoor signs. </p>
+        <p>Outdoor marketing refers to advertising campaigns that employ outdoor media such as billboards, transit vehicles  </p>
       </div>
       <div>
-        <h3>Production</h3>
+        <h3>Print & Media</h3>
         <p>The Electronic Media Production program is designed to meet the changing needs of the audio-visual industry in a digital format.
 </p>
       </div>

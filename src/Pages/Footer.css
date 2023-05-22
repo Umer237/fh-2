@@ -1,6 +1,6 @@
 .Footer{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     background-color: #eaeaea;
     padding-bottom: 5px;
 }
@@ -8,7 +8,7 @@
     font-weight: 300;
 }
 .Footer img{
-    width: 50px;
+    width: 45px;
 }
 .Footer ul{
     display: flex;
