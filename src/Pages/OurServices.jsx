@@ -6,6 +6,7 @@ const OurServices = () => {
     <>
     <div className='Services-Top-Text'>
     <h2>Our Services</h2>
+    <p>Focused on results we seek to raise the level of our customers.</p>
     </div>
     <div className="First-row">
       <div>

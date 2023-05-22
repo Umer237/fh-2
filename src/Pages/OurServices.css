@@ -1,12 +1,14 @@
-.Services-Top-Text h2{
+.Services-Top-Text{
     text-align: center;
+}
+.Services-Top-Text h2{
     font-weight: 500;
     padding-top:20px ;
 }
 .First-row{
     display: flex;
-    padding-top: 100px;
-    margin-top: 100px;
+    padding-top: 50px;
+    margin-top: 50px;
     background: grey;
     text-align: center;
     justify-content: space-evenly;
