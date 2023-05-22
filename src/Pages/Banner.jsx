@@ -5,8 +5,8 @@ import BannerPic from '../img/Chair Man (2).png'
 const Banner = () => {
   return (
     <>
-      <div className="Banner-Flex">
-        <div>
+    <div className="Banner-BG">
+        <div className="Banner-Text">
         <h1>BRANDING</h1>
         <h2>unique and recongnizable</h2>
         <p>
@@ -16,9 +16,9 @@ const Banner = () => {
         </p>
         <button>About us</button>
         </div>
-        <div>
+        {/* <div>
 <img src={BannerPic} alt="" />
-        </div>
+        </div> */}
       </div>
     </>
   );

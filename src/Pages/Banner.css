@@ -1,27 +1,30 @@
-.Banner-Flex{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 200px;
+.Banner-BG{
+    background-image:url('../img/Background.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
 }
-.Banner-Flex h1{
+.Banner-Text{
+    padding-left: 100px;
+    padding-top: 150px;
+}
+.Banner-BG h1{
     font-weight: 500;
     padding-top: 100px;
     line-height: 1;
 }
-.Banner-Flex h2{
+.Banner-BG h2{
     font-weight: 500;
     line-height: 1.3;
 }
-.Banner-Flex p{
+.Banner-BG p{
     width: 490px;
 }
-.Banner-Flex button{
+.Banner-BG button{
     padding: 8px;
-    width: 35%;
+    width: 10%;
     border: none;
     margin-top: 15px;
     background-color: #cfcfcf;
-}
-.Banner-Flex img{
-    width: 250px;
 }
