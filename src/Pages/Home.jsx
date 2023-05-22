@@ -4,6 +4,7 @@ import Banner from './Banner'
 import OurServices from './OurServices'
 import Chooseus from './Chooseus'
 import OurTeam from './OurTeam'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <OurServices/>
     <Chooseus/>
     <OurTeam/>
+    <Footer/>
     </>
   )
 }

@@ -1,0 +1,46 @@
+.Footer{
+    text-align: center;
+    padding-top: 50px;
+    background-color: #eaeaea;
+    padding-bottom: 5px;
+}
+.Footer h4{
+    font-weight: 300;
+}
+.Footer img{
+    width: 50px;
+}
+.Footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.Footer ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+.Footer ul li a{
+    text-decoration: none;
+color: black;
+font-weight: 400;
+font-size: 12px;
+}
+.Logos{
+    display: flex;
+    padding-top: 20px;
+gap: 40px;
+    justify-content: center;
+}
+.Logo{
+    font-size:25px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.Footer-End{
+    background-color: white;
+    padding-top: 8px;
+    margin-top: 20px;
+}
+.Footer-End h5{
+    font-weight: 300;
+}

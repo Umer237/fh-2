@@ -1,5 +1,8 @@
 .Services-Top-Text{
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eaeaea;
 }
 .Services-Top-Text h2{
     font-weight: 500;
@@ -8,8 +11,7 @@
 .First-row{
     display: flex;
     padding-top: 50px;
-    margin-top: 50px;
-    background: grey;
+    background: #eaeaea;
     text-align: center;
     justify-content: space-evenly;
 }
@@ -20,7 +22,7 @@ cursor: pointer;
 .Second-row{
     display: flex;
     padding-top: 100px;
-    background: grey;
+    background: #eaeaea;
     text-align: center;
     justify-content: space-evenly;
 }

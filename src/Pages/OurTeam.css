@@ -1,6 +1,9 @@
 .OurTeam-Top-Text{
     text-align: center;
-    padding-top: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eaeaea;
 }
 .OurTeam-Top-Text h2{
     font-weight: 500;
@@ -8,6 +11,7 @@
 .Our-Team-Flex img{
     width: 350px;
     height: 350px;
+    border-radius: 10px;
 }
 .Our-Team-Flex{
     display: flex;
@@ -29,6 +33,7 @@ align-items: center;
 .Our-Team-Flex-2 img{
     width: 350px;
     height: 350px;
+    border-radius: 10px;
 }
 .Our-Team-Flex-2{
     display: flex;
