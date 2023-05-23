@@ -14,7 +14,7 @@ const Banner = () => {
           “yours”. Essentially, these graphics will contains all the feature
           elements that are unique and recognizable for your business
         </p>
-        <button>About us</button>
+        <button>ABOUT US</button>
         </div>
         {/* <div>
 <img src={BannerPic} alt="" />

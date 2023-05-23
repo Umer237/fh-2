@@ -21,7 +21,7 @@ const Chooseus = () => {
             be no need to look elsewhere.When looking for a one stop Solution FH
             is the name to go for,
           </p>
-          <button>Get In Touch</button>
+          <button>GET IN TOUCH</button>
         </div>
       </div>
     </>

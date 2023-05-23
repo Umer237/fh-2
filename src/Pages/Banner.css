@@ -1,5 +1,5 @@
 .Banner-BG{
-    background-image:url('../img/Background.jpg') ;
+    background-image:url('../img/BG.jpg') ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,14 @@
 .Banner-BG button{
     padding: 8px;
     width: 10%;
-    border: none;
+    border: #009bf5 2px solid;
+    border-radius: 8px;
     margin-top: 15px;
-    background-color: #cfcfcf;
+    color: white;
+    background-color: #009bf5;
+}
+.Banner-BG button:hover{
+    background: white;
+    border: #009bf5 2px solid; 
+    color: #009bf5;
 }

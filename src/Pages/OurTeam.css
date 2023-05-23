@@ -1,9 +1,8 @@
 .OurTeam-Top-Text{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 120px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #eaeaea;
 }
 .OurTeam-Top-Text h2{
     font-weight: 500;
@@ -63,9 +62,18 @@ align-items: center;
 }
 .Our-Team-Btn button{
     padding: 8px;
+    color: white;
     width: 10%;
     border: none;
     margin-top: 100px;
+    border: #009bf5 2px solid;
     margin-bottom: 100px;
-    background-color: #cfcfcf;
+    border-radius: 8px;
+    background-color: #009bf5;
+}
+.Our-Team-Btn button:hover{
+    background: white;
+    border: #009bf5 2px solid; 
+    color: #009bf5;
+ 
 }

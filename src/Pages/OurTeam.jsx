@@ -72,7 +72,7 @@ const OurTeam = () => {
         </div>
       </div>
       <div className="Our-Team-Btn">
-        <button>Meet All</button>
+        <button>MEET ALL</button>
       </div>
     </>
   );

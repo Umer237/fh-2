@@ -1,5 +1,6 @@
 .Choose-Us-Flex{
     display: flex;
+    padding-top: 100px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -19,7 +20,16 @@
     padding: 8px;
     cursor: pointer;
     width: 35%;
+    color: white;
     border: none;
     margin-top: 15px;
-    background-color: #cfcfcf;
+    border: #009bf5 2px solid ;
+    border-radius: 8px;
+    background-color: #009bf5;
+}
+.Choose-Us-Text button:hover{
+    background: white;
+    border: #009bf5 2px solid; 
+    color: #009bf5;
+ 
 }

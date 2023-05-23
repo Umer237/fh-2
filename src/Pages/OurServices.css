@@ -10,7 +10,7 @@
 .First-row{
     display: flex;
     padding-top: 50px;
-    background: #eaeaea;
+    /* background: #f5f5f5; */
     text-align: center;
     justify-content: space-evenly;
 }
@@ -27,14 +27,13 @@ cursor: pointer;
 .Second-row{
     display: flex;
     padding-top: 100px;
-    background: #eaeaea;
+    /* background: #f5f5f5; */
     text-align: center;
     justify-content: space-evenly;
 }
 .Second-row div{
     width: 300px;
     cursor: pointer;
-    margin-bottom: 50px;
 }
 .Services-Btn{
     text-align: center;
@@ -44,7 +43,18 @@ cursor: pointer;
     width: 10%;
     border: none;
     cursor: pointer;
-    margin-top: 40px;
-    background-color: #cfcfcf;
-    margin-bottom: 100px;
+    color: white;
+    border: #009bf5 2px solid;
+    margin-top: 90px;
+    background-color: #009bf5;
+    border-radius: 8px;
+}
+.Services-Btn button:hover{
+    background: white;
+    border: #009bf5 2px solid; 
+    color: #009bf5;
+ 
+}
+.Icons{
+    font-size: 40px;
 }
