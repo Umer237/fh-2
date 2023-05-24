@@ -18,6 +18,7 @@
 padding-left: 200px;
 align-items: center;
     gap: 30px;
+    padding-bottom: 100px;
 }
 .Our-Team-Flex h3{
     line-height: 1;
@@ -61,19 +62,47 @@ align-items: center;
     text-align: center;
 }
 .Our-Team-Btn button{
-    padding: 8px;
-    color: white;
-    width: 10%;
-    border: none;
-    margin-top: 100px;
-    border: #009bf5 2px solid;
+    width: 160px;
+    height: 45px;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    border: 0.1px solid rgb(107, 107, 107);
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.05);
+    font-family: 'Poppins',sans-serif;
+    color: #000;
+    font-size: 18px;
     margin-bottom: 100px;
-    border-radius: 8px;
-    background-color: #009bf5;
+    letter-spacing: 2px;
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.Our-Team-Btn button:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+     top: 0;
+    left: 0; 
+    background: linear-gradient(
+        45deg,
+        transparent 50%,
+        rgba(255,255,255,0.03) 58%,
+        rgba(255,255,255,0.16) 67%,
+        transparent 68%
+    );
+    background-size: 200% 100%;
+    background-position: 165% 0;
+    transition: 0.7s;
+}
+.Our-Team-Btn button:hover:after{
+    background-position: -20% 0;
 }
 .Our-Team-Btn button:hover{
-    background: white;
-    border: #009bf5 2px solid; 
-    color: #009bf5;
- 
+    box-shadow: 15px 30px 32px rgba(0,0,0,0.25);
+    transform: translateY(-6px);
 }
